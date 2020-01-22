@@ -26,7 +26,6 @@ def userchoose():
             sys.exit(0)
         else:
             print("Zly wybor, wybierz ponownie")
-            userchoose()
 
 def numbers(choose):
     try:
@@ -53,7 +52,6 @@ def dzialanie(choose, a, b):
             div(a, b)
     else:
         return
-    userchoose()
 
 if __name__ == "__main__":      # start programu
     userchoose()
